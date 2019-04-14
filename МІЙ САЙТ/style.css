@@ -1,0 +1,211 @@
+.ul1 {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #246666;
+}
+
+.li1 {
+  float: left;
+}
+
+.a1 {
+  font-family: cursive;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+}
+
+.a1:hover {
+  background-color: #246666;
+}
+
+#bgcl {
+  background-color: steelblue;
+}
+
+.h11 {
+font-family: cursive;
+color: white;
+text-align: center;
+font-size: 50px; 
+}
+
+.img1 {
+  float:left;
+  width:120px;
+  height:40px; 
+  border:1px blue;
+}
+
+.p1 {
+  font-family: serif;
+  font-size: 22px;
+  color: darkblue;
+}
+
+.h12 {
+  color: mediumblue;
+  font-family: serif;
+}
+
+#hr1 {
+  border-color: darkblue;
+
+}
+
+.box-1 {
+  flex: 1;
+  order: 1;
+  }
+
+  .box-2 {
+  flex: 5;
+  order: 2;
+
+  }
+
+  .box-3 {
+  flex: 5;
+  order:3;
+  }
+  
+  .box{
+    /* width: 20%; */
+    flex-basis: 20%;
+  }
+
+@media (min-width: 500px){
+  .container-1, .container-2 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row; /*позиціонування обєктів*/
+    /* align-items: flex-start; *//*вирівнювання місця по тексту*/ 
+  }
+
+
+  .container-1 div, .container-2 div {
+  padding: 10px;
+  border: 3px solid gold;
+  }
+
+.table1 {
+  font-family: cursive;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: orange; 
+}
+
+.td1, .th1 {
+  border: 5px black ;
+  text-align: center;
+  padding: 16px;
+}
+
+.tr1:nth-child(even) {
+  background-color: yellow;
+}
+
+.a12:link, .a2:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 28px  50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 200% ;
+  display: inline-block;
+  font-family: cursive;
+}
+
+.a3:hover, .a4:active {
+  background-color: red;
+}
+
+.a11:link, .a22:visited {
+  background-color: blue;
+  color: white;
+  padding: 28px  50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 200% ;
+  display: inline-block;
+  font-family: cursive;
+}
+
+.a33:hover, .a44:active {
+  background-color: darkblue;
+}
+
+.footer1 {
+  background-color: black ;
+  font-family: cursive;
+  font-size: 80%;
+  color: white;
+  border: 5px;
+  border-color: black;
+}
+
+.a111:link, .a222:visited {
+  background-color: purple;
+  color: white;
+  padding: 28px  50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 200% ;
+  display: inline-block;
+  font-family: cursive;
+}
+
+.a333:hover, .a444:active {
+  background-color: black;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  50%  { left:400px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+.div11 {
+padding: 28px 50px;
+  background-color: red;
+  position: relative;
+  animation-name: example;  
+  animation-duration: 4s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes example2 {
+  0%   { left:400px; top:0px;}
+  50%  { left:800px; top:0px;}
+  100% {left:400px; top:0px;}
+}
+
+.div22 {
+padding: 28px 50px;
+  background-color: red;
+  position: relative;
+  animation-name: example2;  
+  animation-duration: 4s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes example3 {
+  0%   { left:0px; top:0px;}
+  20%  { left:1200px; top:0px;}
+  40% {left:600px; top:100px;}
+  60% {left:300px; top:50px;}
+  80% {left:900px; top:50px;}
+  100% {left:0px; top:0px;}
+}
+
+.button1 {
+padding: 20px 40px;
+  background-color: red;
+  position: relative;
+  animation-name: example3;  
+  animation-duration: 1s;
+  animation-iteration-count: infinite; 
+}
